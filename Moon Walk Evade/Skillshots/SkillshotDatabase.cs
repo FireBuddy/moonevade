@@ -30,6 +30,26 @@ namespace MoonWalkEvade.Skillshots
                         ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
                     }
                 },
+                // additional spells start
+                
+                new CircularSkillshot
+                {
+                    OwnSpellData = new SpellData
+                    {
+                        DisplayName = "TaliyahW",
+                        ChampionName = "Taliyah",
+                        SpellName = "TaliyahW",
+                        Slot = SpellSlot.W,
+                        Delay = 850,
+                        Range = 900,
+                        Radius = 150,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        ObjectCreationName = "TaliyahW"
+                    }
+                },
+                //additional spells end
                 new CircularSkillshot
                 {
                     OwnSpellData = new SpellData
